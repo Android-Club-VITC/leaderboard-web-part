@@ -1,18 +1,10 @@
-/*import logo from './logo.svg';*/
-import './App.css';
-import Create from './routes/add-contribution-form';
+import logo from './logo.svg';
+import "./App.css";
 
 function App() {
   return (
-  <Create/>
-    /*
-     <div className="App">
-      
-      
+    <div className="App">
       <header className="App-header">
-        
-          
-
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -26,9 +18,8 @@ function App() {
           Learn React
         </a>
       </header>
-    </div> */
+    </div>
   );
-
 }
 
 export default App;
